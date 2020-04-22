@@ -1,4 +1,5 @@
 def print_user_info(name, surname, b_date, city, email, phone):
+    """Выводит данные о пользователе."""
     print(f'{surname} {name} родился {b_date}, проживает в городе {city}. Контакты: {email}, {phone}')
 
 
