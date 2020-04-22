@@ -1,22 +1,22 @@
-def my_func(number, rate):
+def my_func(x, y):
     """Функция возвращает число, возведенное в отрицательную степень."""
     result_number = 1
     # Производим возведение в положительную степень.
-    for el in range(rate * (-1)):
-        result_number *= number
+    for el in range(y * (-1)):
+        result_number *= x
     # Переворачиваем дробь, т.к. степень отрицательная.
     result_number = 1 / result_number
     # Возвращаем результат.
     return result_number
 
 
-def my_func_easy(number, rate):
+def my_func_easy(x, y):
     """Функцию возвращает число, возведенное в степень."""
-    return number ** rate
+    return x ** y
 
 
-user_number = float(input('Введите число: '))
-user_rate = int(input('Введите степень: '))
+user_x = float(input('Введите число: '))
+user_y = int(input('Введите степень: '))
 # Вызываем функцию.
-print(f'Результат (без использования **): {my_func(user_number, user_rate)}')
-print(f'Результат (с использованием **): {my_func_easy(user_number, user_rate)}')
+print(f'Результат (без использования **): {my_func(user_x, user_y)}')
+print(f'Результат (с использованием **): {my_func_easy(user_x, user_y)}')
