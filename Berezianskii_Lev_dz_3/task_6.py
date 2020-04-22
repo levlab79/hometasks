@@ -6,7 +6,8 @@ def int_func(word):
     return big_letter + word[1:]
 
 
-user_string = input('Введите строку из слов: ')
+# user_string = input('Введите строку из слов: ')
+user_string = 'это проверка user string на разных languages'
 # Создаем список из слов, записанных через пробел.
 user_list = user_string.split()
 new_string = list()

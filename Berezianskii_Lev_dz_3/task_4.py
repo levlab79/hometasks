@@ -15,8 +15,10 @@ def my_func_easy(x, y):
     return x ** y
 
 
-user_x = float(input('Введите число: '))
-user_y = int(input('Введите степень: '))
+# user_x = float(input('Введите число: '))
+# user_y = int(input('Введите степень: '))
+user_x = float('0.5')
+user_y = int('-3')
 # Вызываем функцию.
 print(f'Результат (без использования **): {my_func(user_x, user_y)}')
 print(f'Результат (с использованием **): {my_func_easy(user_x, user_y)}')
