@@ -1,0 +1,6 @@
+Sukhoi ПАО 10000 5000
+Aeroflot ПАО 15000 27000
+Atomtehenergo ОАО 7500 2000
+Artwell ООО 5000 5000
+Sberbank ПАО 17000 3500
+Lukoil ПАО 13000 15500
